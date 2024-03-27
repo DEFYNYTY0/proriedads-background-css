@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+   width: 300vh;/*largura da pagina*/
+   height: 300vh;/*altura*/
+}
+
+.minhadiv{
+width:  1280px;
+height: 722px;
+background-color: red;
+/*colocando a imagem com backgroud-image: url()/*/
+background-image: url(./img/the-boys.jpg);
+/* para a imagem não repeitr */
+background-repeat: no-repeat;
+/* propriedade faz a imagem ficar no tamanho total da caixa (div) */
+/* background-size: cover; */
+ /* posicionamento horizontal  */
+/* background-position: 50% 0%; */
+
+/* imagem fica no tamanho original */
+/* background-size: auto; */
+/* fica dentro da caixa sem perder a qualidade */
+/* background-size: contain; */
+}
+
+
+
